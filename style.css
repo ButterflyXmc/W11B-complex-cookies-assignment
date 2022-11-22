@@ -1,0 +1,45 @@
+html{
+    text-align: center;
+    background-image: url(https://media4.giphy.com/media/UQ84N6dIWObZWILqsE/200.gif?cid=6c09b952fuynskktv1t22263lg1gx8v4kpj7hdgs6h4bhfwb&rid=200.gif&ct=g);
+}
+
+#allbooks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(140, 115, 81, 0.31);
+    margin-top: 3%;
+}
+
+header{
+    color: white;
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+h2{
+    color: white;
+    font-size: 3em;
+    border: white solid 2px;
+    border-radius: 70%;
+    background-color: rgb(111, 111, 17);
+    margin: 60px;
+}
+
+i{
+    color: white;
+    font-size: 2em;
+    background-color: rgba(35, 25, 12, 0.761);
+}
+
+button{
+    background-color: rgba(218, 218, 174, 0.936);
+    font-size: 2.3em;
+}
+
+#cart{
+    background-color: rgba(0, 128, 0, 0.578);
+    color: white;
+    font-size: 1.4em;
+    margin-top: 20%;
+}
